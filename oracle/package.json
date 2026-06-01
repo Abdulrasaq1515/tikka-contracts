@@ -4,8 +4,8 @@
   "description": "Off-chain oracle service for Tikka Contracts",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "build": "node init && tsc",
+    "start": "node init && node dist/index.js"
   },
   "dependencies": {
     "@stellar/stellar-sdk": "^12.1.0",
