@@ -29,3 +29,5 @@ test_snapshots/
 requirements.md
 .github/skills/rust-blockchain/
 .github/skills/senior-fullstack
+config.bat
+node_modules
